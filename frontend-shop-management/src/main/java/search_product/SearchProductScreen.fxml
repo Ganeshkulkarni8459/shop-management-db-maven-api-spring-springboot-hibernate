@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="1097.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search_product.SearchProductScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fb7813" height="119.0" stroke="BLACK" strokeType="INSIDE" width="1097.0" />
+      <Circle fill="#631875" layoutX="852.0" layoutY="65.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="907.0" layoutY="47.0" text="Ganesh (Admin)" textFill="#eee9e9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="34.0" text="Search Product" textFill="#f2ebeb">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameToSearch" layoutX="321.0" layoutY="146.0" prefHeight="45.0" prefWidth="503.0" />
+      <Label layoutX="60.0" layoutY="155.0" text="Product Name To Search">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="category" layoutX="321.0" layoutY="515.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="quantity" layoutX="320.0" layoutY="443.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="price" layoutX="321.0" layoutY="378.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="productName" layoutX="321.0" layoutY="228.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="productid" layoutX="320.0" layoutY="307.0" prefHeight="45.0" prefWidth="503.0" />
+      <Label layoutX="60.0" layoutY="387.0" text="Price">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="524.0" prefHeight="27.0" prefWidth="91.0" text="Category">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="452.0" text="Quantity">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="316.0" text="Product ID">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="237.0" text="Product Name (English)">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="delete" layoutX="559.0" layoutY="597.0" mnemonicParsing="false" onAction="#showDelete" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: #f2180c;" text="Delete" textFill="#e11e1e">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit" layoutX="797.0" layoutY="598.0" mnemonicParsing="false" onAction="#showEdit" prefHeight="48.0" prefWidth="188.0" style="-fx-background-color: #147d41;" text="Edit" textFill="#f2ecec">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="close" layoutX="329.0" layoutY="597.0" mnemonicParsing="false" onAction="#showClose" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: #f2180c;" text="Close" textFill="#da1414">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="search" layoutX="907.0" layoutY="146.0" mnemonicParsing="false" onAction="#showSearch" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #147d41; -fx-border-color: #2B3499;" text="Search" textFill="#ebe4e4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="837.0" layoutY="34.0" text="G" textFill="#f2ebeb">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
